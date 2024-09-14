@@ -6,17 +6,19 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BrightBlogSite</title>
+    <title>DogsDate</title>
 </head>
 <body>
     <header>
         <!-- content of header goes -->
-         <h1 id="logo">BrightBlog</h1>
+         <h1 id="logo">DogsDate</h1>
          <nav>
             <ul id="navigation_list">
                 <li><a href="" class="navbutton">Home</a></li>
                 <li><a href="" class="navbutton">About Us</a></li>
                 <li><a href="" class="navbutton">Contact</a></li>
+                <li><a href="" class="navbutton">Dating tips</a></li>
+                <li><a href="" class="navbutton">Membership Plan</a></li>
 
             </ul>
          </nav>
@@ -24,209 +26,144 @@
     <main>
         <!-- Main content of the website -->
          <div id="main-content">
-            <div>
+            <div id="sidebar">
                 <aside>
+                    
+                    <h2>Register your dog!</h2>
+                    <form action="" method="">
+                        <label for="NAME">Name:</label>
+                        <input type="text" id="NAME" name="NAME" required>
+                        <br>
+                        <br>
+                        <label for="EMAIL">e-mail:</label>
+                        <input type="email" id="EMAIL" name="EMAIL" required>
+                        <br>
+                        <br>
+                        <label for="PASSWORD">Password:</label>
+                        <input type="password" id="PASSWORD" name="PASSWORD" required>
+                        <br>
+                        <br>
+                        <label for="FAVOURITE_ACTIVITY">Favourite Activity:</label>
+                        <br>
+                        <input type="radio" name="FAVOURITE_ACTIVITY" id="chasing" value="chasing">
+                        <label for="chasing">playing fetch</label>
+                        <br>
+                        <input type="radio" name="FAVOURITE_ACTIVITY" id="sniffing" value="sniffing">
+                        <label for="sniffing">sniffing</label>
+                        <br>
+                        <input type="radio" name="FAVOURITE_ACTIVITY" id="sleeping" value="sleeping">
+                        <label for="sleeping">sleeping</label>
+                        <br>
+                        <br>
+                        <label for="gender">Gender:  </label>
+                        <select name="gender" id="gender">
+                            <option value="male">male</option>
+                            <option value="female">female</option>
+                        </select>
+                        <br>
+                        <br>
+                        <label for="age">Age:</label>
+                        <input type="number" id="age" name="age" min="0" max="20" step="0.5">
+                        <br>
+                        <br>
+                        <label for="address">Address:</label>
+                        <textarea name="address" id="address" cols="30" rows="5"></textarea>
+                        <br>
+                        <br>
+                        <label for="bio">Biography:</label>
+                        <textarea name="bio" id="bio" cols="30" rows="5"></textarea>
+                        <br>
+                        <br>
+                        <input type="checkbox" id="subscribe" name="subscribe">
+                        <label for="subscribe">Display Profile</label>
+                        <br>
+                        <br>
+                        <input type="submit" value="Send!">
+                    </form>
+                    <br>
+                    <hr>
+
                     <section>
-                        <h4>Filter by month</h4>
+                        <h4>Filters</h4>
                         <nav>
                             <ul>
-                                <li><a href="">Filter for January</a></li>
-                                <li><a href="">Filter for February</a></li>
-                                <li><a href="">Filter for March</a></li>
+                                <li><a href="">Filter by breed</a></li>
+                                <li><a href="">Filter by location</a></li>
+                                <li><a href="">Filter by age</a></li>
+                                <li><a href="">Filter by gender</a></li>
                             </ul>
                         </nav>
                     </section>
-                    <section>
-                        <h4>Filter by Catergory</h4>
-                        <nav>
-                            <ul>
-                                <li><a href="">Puppies</a></li>
-                                <li><a href="">Dogs</a></li>
-                                <li><a href="">Cats</a></li>
-                                <li><a href="">Eagles</a></li>
-                            </ul>
-                        </nav>
-                    </section>
+                    <br>
+                    <hr>
+
                 </aside>
             </div>
 
-            <div>
+
+            <div id="profiles">
+                <header>
+                    <!-- Article header here -->
+                    <h2>Profiles</h2>
+                    <h3>Here are the profiles of some of the cutest pooches you will ever find:</h3>
+                </header>
                 <article>
                     <header>
-                        <!-- Article header here -->
-                        <h2>All the Amusing Facts About Dogs</h2>
-                        <h3>Read Time: 50 minutes</h3>
+                        <div class="profile-picture">
+                        <img src="https://placebear.com/200/100" alt="A profile picture of a brown bear standing on a rock in the middle of the ocean">
+                        </div>
+                        <div class="description">
+                        <p>Name: Teddy <br> Age: 2 years <br> Gender: male <br> Breed: Labrador</p>
+                        </div>
                     </header>
                     <main>
-                        <p>
-                            Dogs are man's best friends. But the only way to develop that friendship is to know what your Dog likes or what your dog is like. So, here are some amusing facts about dogs. Hope you enjoy them.
-                            
-                        </p>
-                        <p>
-                            Ten amusing facts about dogs:
-                        </p>
-                        <ol>
-                            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, delectus.</li>
-                            <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni a doloremque eligendi.</li>
-                            <li>Lorem ipsum dolor sit amet.</li>
-                            <li>Lorem ipsum dolor sit amet consectetur adipisicing.</li>
-                            <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt recusandae, quisquam ratione quod ab fuga.</li>
-                            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, ex.</li>
-                            <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aspernatur, laudantium?</li>
-                            <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque asperiores quas facilis!</li>
-                            <li>Lorem ipsum dolor sit amet consectetur.</li>
-                            <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt, impedit.</li>
-                        </ol>
-                        <blockquote>
-                            "I secretly love cats too!"
-                            <cite> - Simran Kaur, 2024</cite>
-                        </blockquote> 
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit beatae hic totam distinctio perferendis voluptatem deleniti quia voluptatum veritatis odio, quas officiis iusto, corporis numquam ipsam similique harum, porro doloremque aliquid sunt et repellendus. Numquam explicabo ab possimus atque! Distinctio, similique nam tempora est dolorem in fuga id quasi accusamus saepe ab, pariatur molestias culpa, illum quis vero provident? Optio modi porro assumenda commodi aliquam reprehenderit iure distinctio repellendus cupiditate quisquam, mollitia totam qui, illo labore enim quis iste laboriosam.</p>
-                        </p>
+                        <p>Teddy is my dog. Teddy is my buddy. Teddy is my life. I love him with all my being. He loves scratching, sniffing and chasing and is the best partner in crime for all his friends. Yet he would love to make more friends his own age as he is outgrowing the puppies in the park.</p>
                     </main>
-                    <footer>
-                        <h2>Author: Simran Kaur</h2>
-                        <img src="https://placebear.com/200/100" alt="A profile picture of a brown bear standing on a rock in the middle of the ocean">
-                        <h3>Last posted: 21/08/2024</h3>
-                        <a href="https://www.brightnetwork.co.uk/" target="_blank">Author's profile</a>
-                    </footer>
+                    <button>Arrange Playdate</button>
                 </article>
                 <article>
                     <header>
-                        <!-- Article header here -->
-                        <h2>Ten Amusing Facts About Dogs</h2>
-                        <h3>Read Time: 5 minutes</h3>
+                        <div class="profile-picture">
+                        <img src="https://placebear.com/200/100" alt="A profile picture of a brown bear standing on a rock in the middle of the ocean">
+                        </div>
+                        <div class="description">
+                        <p>Name: Niko <br> Age: 6 months <br> Gender: female <br> Breed: Bearded Collie <br> Favourite Activity: Playing Fetch</p>
+                        </div>
                     </header>
                     <main>
-                        <p>
-                            Dogs are man's best friends. But the only way to develop that friendship is to know what your Dog likes or what your dog is like. So, here are some amusing facts about dogs. Hope you enjoy them.
-                            
-                        </p>
-                        <p>
-                            Ten amusing facts about dogs:
-                        </p>
-                        <ol>
-                            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, delectus.</li>
-                            <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni a doloremque eligendi.</li>
-                            <li>Lorem ipsum dolor sit amet.</li>
-                            <li>Lorem ipsum dolor sit amet consectetur adipisicing.</li>
-                            <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt recusandae, quisquam ratione quod ab fuga.</li>
-                            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, ex.</li>
-                            <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aspernatur, laudantium?</li>
-                            <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque asperiores quas facilis!</li>
-                            <li>Lorem ipsum dolor sit amet consectetur.</li>
-                            <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt, impedit.</li>
-                        </ol>
-                        <blockquote>
-                            "I secretly love cats too!"
-                            <cite> - Simran Kaur, 2024</cite>
-                        </blockquote> 
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit beatae hic totam distinctio perferendis voluptatem deleniti quia voluptatum veritatis odio, quas officiis iusto, corporis numquam ipsam similique harum, porro doloremque aliquid sunt et repellendus. Numquam explicabo ab possimus atque! Distinctio, similique nam tempora est dolorem in fuga id quasi accusamus saepe ab, pariatur molestias culpa, illum quis vero provident? Optio modi porro assumenda commodi aliquam reprehenderit iure distinctio repellendus cupiditate quisquam, mollitia totam qui, illo labore enim quis iste laboriosam.</p>
-                        </p>
+                        <p>Niko is the most energetic furry friend you could have. He has a shiny fur and he likes to jump on sofas when no one is looking. His favourite play is tug-of-war and he especially enjoys going to new places by car. He is very friendly and loves playing with other dogs, so if you would like to meet him for a shot at fun time, please arrange a playdate.</p>
                     </main>
-                    <footer>
-                        <h2>Author: Simran Kaur</h2>
-                        <img src="https://placebear.com/200/100" alt="A profile picture of a brown bear standing on a rock in the middle of the ocean">
-                        <h3>Last posted: 21/08/2024</h3>
-                        <a href="https://www.brightnetwork.co.uk/" target="_blank">Author's profile</a>
-                    </footer>
+                    <button>Arrange Playdate</button>
                 </article>
                 <article>
                     <header>
-                        <!-- Article header here -->
-                        <h2>Ten Amusing Facts About Dogs</h2>
-                        <h3>Read Time: 5 minutes</h3>
+                        <div class="profile-picture">
+                        <img src="https://placebear.com/200/100" alt="A profile picture of a brown bear standing on a rock in the middle of the ocean">
+                        </div>
+                        <div class="description">
+                        <p>Name: Bruno <br> Age: 5 years <br> Gender: male <br> Breed: Cocker Spaniel</p>
+                        </div>
                     </header>
                     <main>
-                        <p>
-                            Dogs are man's best friends. But the only way to develop that friendship is to know what your Dog likes or what your dog is like. So, here are some amusing facts about dogs. Hope you enjoy them.
-                            
-                        </p>
-                        <p>
-                            Ten amusing facts about dogs:
-                        </p>
-                        <ol>
-                            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, delectus.</li>
-                            <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni a doloremque eligendi.</li>
-                            <li>Lorem ipsum dolor sit amet.</li>
-                            <li>Lorem ipsum dolor sit amet consectetur adipisicing.</li>
-                            <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt recusandae, quisquam ratione quod ab fuga.</li>
-                            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, ex.</li>
-                            <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aspernatur, laudantium?</li>
-                            <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque asperiores quas facilis!</li>
-                            <li>Lorem ipsum dolor sit amet consectetur.</li>
-                            <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt, impedit.</li>
-                        </ol>
-                        <blockquote>
-                            "I secretly love cats too!"
-                            <cite> - Simran Kaur, 2024</cite>
-                        </blockquote> 
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit beatae hic totam distinctio perferendis voluptatem deleniti quia voluptatum veritatis odio, quas officiis iusto, corporis numquam ipsam similique harum, porro doloremque aliquid sunt et repellendus. Numquam explicabo ab possimus atque! Distinctio, similique nam tempora est dolorem in fuga id quasi accusamus saepe ab, pariatur molestias culpa, illum quis vero provident? Optio modi porro assumenda commodi aliquam reprehenderit iure distinctio repellendus cupiditate quisquam, mollitia totam qui, illo labore enim quis iste laboriosam.</p>
-                        </p>
+                        <p>Bruno is an amazing dog. He is the cutest and the kindest being I could hope for. He loves hanging out with other dogs and we would be forever greatful if we could find a playdate for our beloved Bruno. Please contact us to arrange a playdate with Bruno.</p>
                     </main>
-                    <footer>
-                        <h2>Author: Simran Kaur</h2>
-                        <img src="https://placebear.com/200/100" alt="A profile picture of a brown bear standing on a rock in the middle of the ocean">
-                        <h3>Last posted: 21/08/2024</h3>
-                        <a href="https://www.brightnetwork.co.uk/" target="_blank">Author's profile</a>
-                    </footer>
+                    <button>Arrange Playdate</button>
                 </article>
+                <footer>
+                    <a href="">See more</a>
+                    <br>
+                    <br>
+                    <br>
+                </footer>
             </div>
          </div>
 
         
-        <hr>
-        <h2>Sign up for our newsletter!</h2>
-        <form action="" method="">
-            <label for="FIRST_NAME">First Name:</label>
-            <input type="text" id="FIRST_NAME" name="FIRST_NAME" required>
-            <br>
-            <br>
-            <label for="LAST_NAME">Last Name:</label>
-            <input type="text" id="LAST_NAME" name="LAST_NAME" required>
-            <br>
-            <br>
-            <label for="EMAIL">e-mail:</label>
-            <input type="email" id="EMAIL" name="EMAIL" required>
-            <br>
-            <br>
-            <label for="PASSWORD">Password:</label>
-            <input type="password" id="PASSWORD" name="PASSWORD" required>
-            <br>
-            <br>
-            <label for="FAVOURITE_ANIMAL">Favourite Animal:</label>
-            <input type="radio" name="FAVOURITE_ANIMAL" id="dog" value="dog">
-            <label for="dog">Dog</label>
-            <input type="radio" name="FAVOURITE_ANIMAL" id="cat" value="cat">
-            <label for="cat">Cat</label>
-            <input type="radio" name="FAVOURITE_ANIMAL" id="Eagle" value="Eagle">
-            <label for="Eagle">Eagle</label>
-            <br>
-            <br>
-            <label for="country">Country:  </label>
-            <select name="country" id="country">
-                <option value="england">England</option>
-                <option value="Scotland">Scotland</option>
-                <option value="Wales">Wales</option>
-                <option value="Northern_ireland">Noethern Ireland</option>
-            </select>
-            <br>
-            <br>
-            <label for="bio">Biography:</label>
-            <textarea name="bio" id="bio" cols="30" rows="5"></textarea>
-            <br>
-            <br>
-            <input type="checkbox" id="subscribe" name="subscribe">
-            <label for="subscribe">Subscribe to our Newsletter!</label>
-            <br>
-            <br>
-            <input type="submit" value="Send!">
-        </form>
-        <hr>
+
     </main>
 
     <footer>
-        <h2>BrightBlogSite</h2>
+        <h2>DogsDate</h2>
         <section>
             <nav>
                 <ul id="footer-ul">
